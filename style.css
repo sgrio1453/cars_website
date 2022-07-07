@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+.container {
+  padding-left: 8%;
+  padding-right: 8%;
+  background-image: url("./images/arkaaa.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+p {
+  font-size: 10px;
+  color: white;
+  line-height: 16px;
+}
+.btn {
+  padding: 12px 28px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid red;
+  transition: ease 0.3s;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+li {
+  color: white;
+}
+.col {
+  flex-basis: 50%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  width: 70px;
+  height: 70px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: ease 0.3s;
+}
+nav ul li a:hover {
+  color: cadetblue;
+}
+.row {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  height: 88%;
+}
+h1 {
+  color: white;
+  font-size: 100px;
+}
+.desc {
+  font-size: 16px;
+}
+.cards {
+  max-width: 500px;
+  margin: auto;
+}
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  border: 1px solid red;
+  position: relative;
+  transition: ease 0.3s;
+  margin: 10px 15px;
+}
+.card:hover {
+  transform: translateY(-10px);
+  border-color: white;
+}
+.card .card-head {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.card .card-bottom {
+  position: absolute;
+  bottom: 10px;
+}
+
+.card.card-1 {
+  background-image: url("./images/toross.jpg");
+}
+.card.card-2 {
+  background-image: url("./images/sahinn.jpg");
+}
+.card.card-3 {
+  background-image: url("./images/muratt.jpg");
+}
+.card.card-4 {
+  background-image: url("./images/tipoo.jpg");
+}
